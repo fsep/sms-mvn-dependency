@@ -80,7 +80,7 @@
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                     <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
                     <includes><include>**/*</include></includes>
-                    <repositoryName>sms-mvn-plugin</repositoryName>      <!-- github repo name -->
+                    <repositoryName>sms-mvn-dependency</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>fsep</repositoryOwner>    <!-- github username  -->
                 </configuration>
                 <executions>
